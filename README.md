@@ -15,7 +15,7 @@ I worked with data on the following variables:
 6. Nearby police stations
 7. Nearby public housing
 
-###### After downloading the data and uploading it into pgAdmin, I cleaned the data down significantly. The most notable changes were: 
+After downloading the data and uploading it into pgAdmin, I cleaned the data down significantly. The most notable changes were: 
 
 - All data was cut down to just the time period 2016 - 2022
 - Crime data was cleaned to just “relevant” crimes in “relevent” locations (violent crimes that a typical CTA rider would reasonably have to worry about)
