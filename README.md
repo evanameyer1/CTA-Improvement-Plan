@@ -3,7 +3,7 @@
 I used Chicago-based data to analyze the Chicago Transit Authority (CTA) stations throughout the city of Chicago and nearby suburbs, looking to highlight the city’s most dangerous and ineffective stations. Then, once a target station was picked, I analyzed city blocks and streets near the station to suggest recommendations to increase daily ridership. 
 
 
-Data Set(https://drive.google.com/drive/folders/1Q2wHWqyn0CmZDoxIRe0yE4BNswxqCMsJ?usp=sharing): 
+###### Data Set ###### (https://drive.google.com/drive/folders/1Q2wHWqyn0CmZDoxIRe0yE4BNswxqCMsJ?usp=sharing): 
 
 I worked with data on the following variables: 
 
@@ -15,7 +15,7 @@ I worked with data on the following variables:
 6. Nearby police stations
 7. Nearby public housing
 
-After downloading the data and uploading it into pgAdmin, I cleaned the data down significantly. The most notable changes were: 
+###### After downloading the data and uploading it into pgAdmin, I cleaned the data down significantly. The most notable changes were: 
 
 - All data was cut down to just the time period 2016 - 2022
 - Crime data was cleaned to just “relevant” crimes in “relevent” locations (violent crimes that a typical CTA rider would reasonably have to worry about)
@@ -25,7 +25,7 @@ After downloading the data and uploading it into pgAdmin, I cleaned the data dow
 
 
 
-Scoring: 
+###### Scoring: 
 
 In order to compare various stations, I developed a constant scoring system. Each station received a number based on each variable, which then was summed for a total score out of 13: 
 - Daily ridership (The 20 stations with the lowest daily ridership received a score of 4, with the next 20 receiving 3, the next 20 receiving a 2, and so on)
@@ -35,13 +35,13 @@ In order to compare various stations, I developed a constant scoring system. Eac
 
 
 
-Picking a target station: 
+###### Picking a target station: 
 
 Ultimately, three stations had the highest scores of 10. Of those three, two of which were part of the purple line and located in the city suburbs. They both had 0 reported crime, with their high score a result solely of the stations being in the middle of nowhere. However, the third station, Cicero-Lake, is located on the Green line, and in the middle of one of the most dangerous neighborhoods in Chicago. With double the daily crime and a third of the daily ridership of the average station, it was clear that this was the station that needed some improvements.
 
 
 
-Trends:
+###### Trends:
 
 Before moving toward recommendations, I made sure to highlight trends in the data that would clarify which changes would actually increase daily ridership. I found that stations nearby more bus stations, bikeshare stations, and grocery options tend to see higher daily ridership than those without.
 
@@ -49,7 +49,7 @@ When looking at the area surrounding the Cicero-Lake station you find that Cicer
 
 
 
-Recommendations:
+###### Recommendations:
 
 When looking at the area surrounding the Cicero-Lake station I also noticed a large industrial complex closeby, containing buildings like the CTA training facility and Chicago’s public sanitation building, implying a large amount of low-middle income workers going to and from these locations on a regular basis. 
 
@@ -57,6 +57,6 @@ Understanding this, and in conjunction with the highlighted trends, I recommend 
 
 
 
-Conclusion:
+###### Conclusion:
 
 Based on low ridership, high crime, and low access to bus stops, bikeshare stations, and grocery stores Cicero-Lake was selected as the target station for improvement. I recommend investment in the neighborhood around the Cicero-Lake station, such as  2 new bus stops, 2 new bikeshare stations, and 1 new grocery store, in order to  increase Cicero-Lake’s daily ridership.
