@@ -3,7 +3,7 @@
 I used Chicago-based data to analyze the Chicago Transit Authority (CTA) stations throughout the city of Chicago and nearby suburbs, looking to highlight the city’s most dangerous and ineffective stations. Then, once a target station was picked, I analyzed city blocks and streets near the station to suggest recommendations to increase daily ridership. 
 
 
-## Data Set (https://drive.google.com/drive/folders/1Q2wHWqyn0CmZDoxIRe0yE4BNswxqCMsJ?usp=sharing): 
+## Data Set:
 
 I worked with data on the following variables: 
 
@@ -22,6 +22,8 @@ I worked with data on the following variables:
 - I created a new station-id system through Excel that I then assigned to the train stations, as their specific names varied between datasources
 - I removed stations that, as of 2022, are closed and no longer running
 - I removed any outliers (data more than 2 standard deviations from the mean)
+
+> Access all original datasources and my updated datasources here: (https://drive.google.com/drive/folders/1Q2wHWqyn0CmZDoxIRe0yE4BNswxqCMsJ?usp=sharing)
 
 
 
